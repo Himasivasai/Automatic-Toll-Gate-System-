@@ -19,7 +19,7 @@ the gate using a servo motor.
 The ultrasonic sensor detects the presence of a vehicle by measuring
 the distance from the sensor.
 
-When the detected distance is within the defined threshold, the
+When a vehicle is detected within the defined 25 cm threshold, the
 Arduino controls the servo motor to operate the gate.
 
 When the vehicle moves away, the servo returns the gate to its
@@ -46,3 +46,7 @@ previous position.
 - Office buildings
 - Shopping malls
 - Event venues
+
+## Project Image
+
+![Automatic Toll Gate System](automatic_toll_gate.jpg)
